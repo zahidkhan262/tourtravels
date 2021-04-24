@@ -163,9 +163,8 @@ span {
 .banner{
     height: 80vh;
     background-image: url(bg2.jpg);
-    background-position: center;
+    background-position: center center;
     background-size: cover;
-    background-attachment: fixed; 
     padding-top: 25vh;
 }
 .banner-highlights{
@@ -174,26 +173,6 @@ span {
     text-align: center;
     color: #fff;
 }
-
-/* .booking-btn{
-    font-size: 20px;
-    width: 120px;
-    outline: none !important;
-    background: transparent;
-    color: white;
-    border: 1px solid lightblue;
-    border-radius: 20px;
-    padding: 5px 10px;
-    margin: 10px;
-
-
-}
-.booking-btn:hover{
-    background-color: #9610fb;
-    color: white !important;
-    font-size: 18px;
-
-} */
 
 
 .tool{
