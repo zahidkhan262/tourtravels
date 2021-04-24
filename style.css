@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 100vh;
+    background: url(nightway.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding-top: 20px;
+    opacity: 0.8;
+}
+.logo{
+    font-size: 32px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.logo:hover {
+    color: white;
+    font-size: 35px;
+    transition: .3s;
+}
+
+.logos {
+    font-size: 32px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.logos:hover {
+    color: white;
+    font-size: 35px;
+    transition: .3s;
+}
+
+ #button {
+    width: 100px;
+    padding: 8px 0px;
+    outline: none !important;
+    border: 2px solid white;
+    border-radius: 30px;
+    float: right;
+    background: seagreen;
+}
+
+#button:hover {
+    background-color: rgba(23, 23, 221, 0.753);
+    transition: .3s;
+} 
+.hr{
+    border-bottom: 2px solid cyan;
+}
+.heading{
+    background: rgba(0,0,0,0.9);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.heading h1 {
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 50px;
+    padding: 10px 20px;
+}
+
+span {
+    animation: colorchng 2s step-end infinite;
+}
+
+@keyframes colorchng {
+    50% {
+        color: orangered;
+        transition: 2s;
+    }
+    75% {
+        color: white;
+        transition: 1s;
+    }
+    100% {
+        color: green;
+        transition: 2s;
+    }
+}
+ 
+.input-group{
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: white;
+    padding: 2px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+}
+.form-control{
+    border: 0 !important;
+    border-radius: 30px !important;
+    margin: 2px;
+    box-shadow: none !important;
+}
+.form-control:hover{
+    font-size: 18px !important;
+    background-color: rgba(255,255,255,0.1) !important;
+    color: white;
+}
+.input-group-text{
+    width: 100%;
+
+    border: none;
+    outline: none;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border: 0 !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+}
+.main h2{
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.feature-img img{
+    width: 100%;
+    padding-top: 20px;
+     
+    
+}
+.gallery h2{
+    text-align: center;
+    padding: 20px;
+    background: #efefef;
+}
+.gallery-box img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.gallery-box h4{
+    width: 200px;
+    display: block;
+    font-size: 20px;
+    text-shadow: -2px 2px 2px #000;
+    color: white;
+    top: 60%;
+    left: 40%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+.gallery-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+.gallery-box img:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+.banner{
+    height: 80vh;
+    background-image: url(bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+    padding-top: 25vh;
+}
+.banner-highlights{
+    padding: 50px 0px;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color: #fff;
+}
+
+/* .booking-btn{
+    font-size: 20px;
+    width: 120px;
+    outline: none !important;
+    background: transparent;
+    color: white;
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 10px;
+
+
+}
+.booking-btn:hover{
+    background-color: #9610fb;
+    color: white !important;
+    font-size: 18px;
+
+} */
+
+
+.tool{
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    border: 1px solid white;
+    width: 120px;
+    font-size: 20px;
+    border-radius: 25px;
+
+}
+.tool .tooltext{
+    visibility: hidden;
+    width: 120px;
+    background: transparent;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    top: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.tool:hover .tooltext{
+    visibility: visible;
+}
+.tool:hover{
+    background-color: #9610fb;
+    color: white !important;
+}
+
+.users-feedback{
+    padding: 40px 0px;
+    text-align: center;
+}
+.users-feedback h5{
+    text-decoration: underline white;
+}
+.users-reviews{
+    box-shadow: 0 0 10px 0 rgba(0,0,100,0.2);
+    padding-bottom: 50px;
+
+}
+.users-reviews p{
+    padding: 30px 10px 10px 10px;
+}
+.users-feedback img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: relative;
+    margin: -40px 0px 20px 20px;
+}
+.users-feedback img:hover{
+    transform: scale(1.1);
+    transform: rotate(360deg);
+    transition: .3s;
+}
+.footer{
+    padding: 80px 20px 30px 20px;
+    background-image: linear-gradient(#2d557d,#9610fd);
+    color: white;
+    text-align: center;
+}
+.footer p{
+    padding: 10px;
+}
+.footer h3{
+    color: rgba(15, 15, 15, 0.678);
+    text-decoration: underline white;
+}
+.footer a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: rgb(23, 130, 230);
+}
+.footer2{
+    width: 100%;
+    height: 30vh;
+    background: rgba(0,0,0,0.9);
+}
+.footer2 p,
+a{
+    text-align: center;
+    padding-top: 50px;
+    color: rgba(255,255,255,0.8);
+}
+.footer2 a:hover{
+    color: green;
+    text-decoration: none;
+}
+.backtop{
+    width: 80px;
+    height: 50px;
+    background: rgba(23, 23, 221, 0.753);
+    float: right;
+    text-align: center;
+    columns: #ffffff;
+    padding: 10px;
+    margin: 5px;
+    animation: blinktop 3s infinite;
+    box-shadow:  0 2px 3px rgba(255,255,255,0.8);
+}
+@keyframes blinktop{
+    50%{
+        background: rgba(15, 15, 15, 0.678);
+        transition: background-color 1s linear;
+    }
+    100%{
+        background: rgba(255,255,255,0.5);
+        transition: .3s steps(1px 2px);
+    }
+}
+.backtop a{
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
